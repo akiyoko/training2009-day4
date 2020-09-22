@@ -55,8 +55,8 @@ class TodoListView(View):
             'today': today,
             'todo_list': todo_list,
         }
-        # return TemplateResponse(request, 'todo/todo_list.html', context)
-        return TemplateResponse(request, 'todo/todo_list_1_3.html', context)
+        return TemplateResponse(request, 'todo/todo_list.html', context)
+        # return TemplateResponse(request, 'todo/todo_list_1_3.html', context)
 
 
 # Step 6. TODO追加画面を作成する
